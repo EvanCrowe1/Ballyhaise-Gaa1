@@ -1,0 +1,42 @@
+
+header {background-image: url(https://thumbs.dreamstime.com/b/coffee-banner-design-modern-businesses-elegant-coffee-banner-design-touch-simplicity-created-using-ai-316791154.jpg) ;
+background-position: center;
+background-size: 150%;
+        Color: #006633;
+        line-height: 500%;
+        font-family: Pacifico, "Times New Roman",serif;
+        Text-shadow: 3px 3px 5px #cccccc;}
+h1 {        border: 5px solid #333;
+	        display: flex;
+	        width:18%;
+            border-radius: 1000px;
+            background-image: url(CafeBlueLogo.JPG);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            align-items: center;
+            background-color: #00cccc;
+            padding: 15px;}
+
+nav {
+             border: 2px solid #333;
+             border-radius: 8px;
+             Display : flex;
+             justify-content:space-around;
+             align-items: center;
+             background-color: #64b5f6;
+             padding: 15px;
+	            }
+
+	            #pastry {
+    color: blue;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+img {border: 2px solid #333;
+border-radius: 8px;
+align-items: center;}
+
+Body  {background-color:#006699;
+	font-style: calibri;}

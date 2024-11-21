@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Display Info</title>
+</head>
+<body>
+  <h1>Displaying Information</h1>
+
+  <!-- A container where we will display the message -->
+  <div id="info"></div>
+
+  <script>
+    // JavaScript code to display the information
+    function displayInfo() {
+      const name = "John";
+      const age = 30;
+      const city = "New York";
+
+      // Combine the information into one string
+      const infoMessage = `${name}, age ${age}, ${city}`;
+
+      // Display the message in the 'info' div
+      document.getElementById('info').textContent = infoMessage;
+    }
+
+    // Call the function to display the information
+    displayInfo();
+  </script>
+</body>
+</html>
